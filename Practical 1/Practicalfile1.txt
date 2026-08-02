@@ -1,0 +1,26 @@
+Practical 1:
+Practical Aim
+To implement fundamental array operations.
+Problem 1
+A bakery prepares n items every morning and places them in a display row. At the end of each hour, the leftmost item is moved to the rightmost position to make room for fresh stock at the front. Given the initial row and the number of hours h, print the final display order.
+Describe the approach you used. How does it behave when h is very large, say 10 million? Is there a way to get the correct result without performing the operation h times?
+
+Solution 1:
+        I used the loop approach for example after 5 hour we have to move 'd' items. The for loop is started from d and it is ended at the end, also there is an one more loop which is start from Position Zero and end at position d. Both the loops print all the elements of that position. 
+
+Problem 2
+A library issues books to students and records each book's ID every time it is borrowed. At the end of the month, the librarian wants to find all books that were borrowed more than once, as those need priority restocking. Given the borrowing log, print all such book IDs.
+Describe the approach you used. How many times does your solution scan the data? If the library had 100,000 borrow records, would your approach still be practical? Can you think of a way that requires fewer passes?
+
+Solution 2: 
+            I used "for" loop, first i asked user to enter the number of terms in the array and the key to search , now by for loop search element is compared with every element if both equates then count is inc. by one ,where count is var. which stores number of times of occurrence , 
+            At last I gave one condition that is count greater than equals to one and it will print it. 
+
+Problem 3
+A school newspaper editor wants to highlight the most impressive word from a submitted article on the front page. The word is chosen simply by length — the longest one wins. Given a sentence, print the winning word and how many letters it has.
+Describe the approach you used. What does your solution do when two words have the same length? Is that behavior intentional, and can you think of a way to handle it explicitly?
+
+Solution 3:
+	Here again i used concept of looping and string library , I take input from user by getline func. for full input on a sentence. After that I run a loop starting from zero to end of the string , if there is blanck space or teminater then it will store in word and word.length fun. gives
+        gives length of the word, if it is greter then the length of the longest word then the word in stored in longest word. 
+            
