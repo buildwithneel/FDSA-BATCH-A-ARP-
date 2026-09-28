@@ -5,6 +5,7 @@ int main() {
     int top = -1;
     int ch;
     string page;
+    cout<<"Enter the current Page: ";
     cin >> page;
     history[++top] = page;
     cout << "Current Page: " << history[top] << "\n";
@@ -23,7 +24,7 @@ while (cin >> ch) {
     }
     }
     else
-    sbreak;
+    break;
     }
     return 0;
 }

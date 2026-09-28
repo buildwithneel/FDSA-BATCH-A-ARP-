@@ -3,11 +3,15 @@ using namespace std;
 
 int main() {
     int n;
+    cout<<"Enter the number of elements:";
     cin >> n;
     int st[n], top = -1;
     int ch, x;
+    cout<<"Enter 1 for Insertion and 2 for deletion \n";
+    cout<<"Input Example 1/2 Element \n";
 while (cin >> ch) {
     if (ch == 1) {
+    cout<<"Enter the Numbers : ";
     cin >> x;
     if (top == n - 1)
         cout << "Stack Overflow\n";

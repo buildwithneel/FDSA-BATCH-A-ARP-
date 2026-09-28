@@ -13,6 +13,7 @@ int main() {
     string s, ans = "";
     char st[1000];
     int top = -1;
+    cout<<"Enter Your Expression: ";
     cin >> s;
 for (char c : s) {
     if (isalnum(c))
